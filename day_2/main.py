@@ -5,3 +5,5 @@ people = int(input("How many people to split the bill? "))
 
 res = (bill / people) * (1 + tip / 100)
 print(f"Each person should pay: ${res}")
+
+# https://ascii.co.uk/art
