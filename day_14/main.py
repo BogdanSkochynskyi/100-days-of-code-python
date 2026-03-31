@@ -22,7 +22,7 @@ def game():
         else:
             update_celebrity(celebrities, celebrity2)
             print_celebrities(celebrity1, celebrity2)
-            user_select = input("Who have more subscribers in the instagram? a or b?")
+            user_select = input("Who have more subscribers in the instagram? a or b? ")
             result = check_answer(celebrity1['follower_count'], celebrity2['follower_count'], user_select)
 
             # If user correct - then acc1 = acc2 and randomly choose next acc2, increase score
@@ -63,7 +63,7 @@ def print_celebrities(celebrity1, celebrity2):
     print_celebrity(celebrity2)
 
 def print_celebrity(celebrity):
-    print(f"{celebrity['name']} who is {celebrity['description']} from {celebrity['country']} {celebrity['follower_count']}")
+    print(f"{celebrity['name']} who is {celebrity['description']} from {celebrity['country']}")
 
 #Compare subscribers and user answer
 def check_answer(celebrity1_subscribers, celebrity2_subscribers, user_select):
