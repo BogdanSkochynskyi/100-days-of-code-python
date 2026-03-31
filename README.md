@@ -7,7 +7,7 @@ The goal is simple: **learn Python by building 100 real projects in 100 days**.
 
 ## 📊 Progress
 
-Day **14 / 100** (14%)
+Day **15 / 100** (15%)
 
 ---
 
